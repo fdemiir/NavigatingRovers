@@ -35,7 +35,6 @@ namespace NavigatingRovers.ConsoleApp.Helper
                     string roverDirection = DirectionConvertToString(roverPosition.Direction);
                     expectedPositionList.Add($"{roverPosition.Coordinate.X} {roverPosition.Coordinate.Y} {roverDirection}");
                 }
-
                 return expectedPositionList;
             }
             else
